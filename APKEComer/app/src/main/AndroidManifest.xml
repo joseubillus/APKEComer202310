@@ -12,6 +12,11 @@
         android:theme="@style/Theme.APKEComer"
         tools:targetApi="31">
         <activity
+            android:name=".MnMenu"
+            android:exported="false"
+            android:label="@string/title_activity_mn_menu"
+            android:theme="@style/Theme.APKEComer.NoActionBar" />
+        <activity
             android:name=".MnLogin"
             android:exported="false" />
         <activity
