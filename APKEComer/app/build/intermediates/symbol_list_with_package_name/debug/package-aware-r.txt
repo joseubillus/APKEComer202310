@@ -2866,6 +2866,8 @@ id CTRL
 id FUNCTION
 id FrmLog_btnacep
 id FrmPre_btnpre
+id FrmPrue_Lst
+id FrmPrue_txtbus
 id META
 id NO_DEBUG
 id SHIFT
@@ -3489,6 +3491,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_mn_login
 layout activity_mn_menu
+layout activity_mn_prueba
 layout app_bar_mn_menu
 layout content_mn_menu
 layout custom_dialog

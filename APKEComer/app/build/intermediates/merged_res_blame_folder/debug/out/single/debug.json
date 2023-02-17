@@ -32,6 +32,10 @@
         "source": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.apkecomer.app-merged_res-43:/layout_activity_mn_prueba.xml.flat",
+        "source": "com.example.apkecomer.app-main-45:/layout/activity_mn_prueba.xml"
+    },
+    {
         "merged": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-merged_res-43:\\layout_app_bar_mn_menu.xml.flat",
         "source": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\app_bar_mn_menu.xml"
     },
@@ -126,10 +130,6 @@
     {
         "merged": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-merged_res-43:\\drawable_ic_menu_slideshow.xml.flat",
         "source": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\drawable\\ic_menu_slideshow.xml"
-    },
-    {
-        "merged": "com.example.apkecomer.app-merged_res-43:/layout_activity_mn_login.xml.flat",
-        "source": "com.example.apkecomer.app-main-45:/layout/activity_mn_login.xml"
     },
     {
         "merged": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-merged_res-43:\\layout_content_mn_menu.xml.flat",

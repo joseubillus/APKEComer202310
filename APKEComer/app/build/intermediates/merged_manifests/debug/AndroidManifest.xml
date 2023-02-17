@@ -8,6 +8,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <permission
         android:name="com.example.apkecomer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -26,6 +28,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.APKEComer" >
+        <activity
+            android:name="com.example.apkecomer.MnPrueba"
+            android:exported="false" />
         <activity
             android:name="com.example.apkecomer.MnMenu"
             android:exported="false"

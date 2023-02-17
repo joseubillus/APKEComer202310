@@ -4,12 +4,12 @@
         "source": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\fragment_gallery.xml",
-        "source": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\fragment_gallery.xml"
+        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/activity_mn_prueba.xml",
+        "source": "com.example.apkecomer.app-main-45:/layout/activity_mn_prueba.xml"
     },
     {
-        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/activity_mn_login.xml",
-        "source": "com.example.apkecomer.app-main-45:/layout/activity_mn_login.xml"
+        "merged": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\fragment_gallery.xml"
     },
     {
         "merged": "C:\\Users\\jose\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\app_bar_mn_menu.xml",
