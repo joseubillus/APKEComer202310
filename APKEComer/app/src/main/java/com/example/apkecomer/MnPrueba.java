@@ -19,6 +19,6 @@ public class MnPrueba extends AppCompatActivity {
         Lstprue = (ListView) findViewById(R.id.FrmPrue_Lst);
         dpre = new DPrueba1(this);
         dpre.Lst = Lstprue;
-        dpre.getListDatos("10");
+        dpre.getListDatos("100");
     }
 }

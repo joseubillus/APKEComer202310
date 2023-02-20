@@ -49,8 +49,8 @@ public class DPrueba1 {
             ArrayAdapter adp=new ArrayAdapter(ct, android.R.layout.simple_list_item_1);
             JSONObject json = new JSONObject(resp);
 
-            for (int i = 0; i < json.length(); i++) {
-                nom=nom+" "+json.getJSONArray("results").getJSONObject(i).getString("name");
+            for (int i = 0; i < json.getJSONArray("results").length(); i++) {
+                nom=" "+json.getJSONArray("results").getJSONObject(i).getString("name");
                 adp.add(""+nom);
             }
             Lst.setAdapter(adp);
