@@ -2766,6 +2766,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable foto
 drawable hombre
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
@@ -2866,8 +2867,8 @@ id CTRL
 id FUNCTION
 id FrmLog_btnacep
 id FrmPre_btnpre
-id FrmPrue_Lst
-id FrmPrue_txtbus
+id FrmProd_grid
+id FrmProd_schbus
 id META
 id NO_DEBUG
 id SHIFT
@@ -3088,6 +3089,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id immediateStop
 id included
 id indeterminate
@@ -3220,6 +3222,7 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
+id ratingBar
 id ratio
 id rectangles
 id reverseSawtooth
@@ -3329,6 +3332,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
+id textView3
 id text_gallery
 id text_home
 id text_input_end_icon
@@ -3491,8 +3496,9 @@ layout abc_tooltip
 layout activity_main
 layout activity_mn_login
 layout activity_mn_menu
-layout activity_mn_prueba
+layout activity_mn_producto
 layout app_bar_mn_menu
+layout conf_list_producto
 layout content_mn_menu
 layout custom_dialog
 layout design_bottom_navigation_item

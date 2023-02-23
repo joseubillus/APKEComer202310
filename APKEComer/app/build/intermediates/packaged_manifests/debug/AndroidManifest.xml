@@ -29,7 +29,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.APKEComer" >
         <activity
-            android:name="com.example.apkecomer.MnPrueba"
+            android:name="com.example.apkecomer.MnProducto"
             android:exported="false" />
         <activity
             android:name="com.example.apkecomer.MnMenu"

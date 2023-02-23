@@ -12,7 +12,7 @@
         android:theme="@style/Theme.APKEComer"
         tools:targetApi="31">
         <activity
-            android:name=".MnPrueba"
+            android:name=".MnProducto"
             android:exported="false" />
         <activity
             android:name=".MnMenu"

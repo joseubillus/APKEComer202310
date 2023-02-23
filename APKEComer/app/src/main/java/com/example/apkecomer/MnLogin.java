@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.controlador.DPrueba1;
-
 public class MnLogin extends AppCompatActivity {
     //private DPrueba1 dprue=null;
 
@@ -20,7 +18,7 @@ public class MnLogin extends AppCompatActivity {
 
     public void Onclick_btnAcep(View v){
         //startActivity(new Intent(MnLogin.this,MnMenu.class));
-        startActivity(new Intent(MnLogin.this,MnPrueba.class));
+        startActivity(new Intent(MnLogin.this,MnProducto.class));
         //dprue.getListDatos("8");
     }
 }

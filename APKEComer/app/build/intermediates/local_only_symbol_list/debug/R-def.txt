@@ -12,6 +12,7 @@ dimen activity_vertical_margin
 dimen fab_margin
 dimen nav_header_height
 dimen nav_header_vertical_spacing
+drawable foto
 drawable hombre
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -21,8 +22,8 @@ drawable ic_menu_slideshow
 drawable side_nav_bar
 id FrmLog_btnacep
 id FrmPre_btnpre
-id FrmPrue_Lst
-id FrmPrue_txtbus
+id FrmProd_grid
+id FrmProd_schbus
 id action_settings
 id app_bar_mn_menu
 id drawer_layout
@@ -30,13 +31,17 @@ id editTextTextPassword
 id editTextTextPersonName
 id fab
 id imageView
+id imageView2
 id mobile_navigation
 id nav_gallery
 id nav_home
 id nav_host_fragment_content_mn_menu
 id nav_slideshow
 id nav_view
+id ratingBar
 id textView
+id textView2
+id textView3
 id text_gallery
 id text_home
 id text_slideshow
@@ -44,8 +49,9 @@ id toolbar
 layout activity_main
 layout activity_mn_login
 layout activity_mn_menu
-layout activity_mn_prueba
+layout activity_mn_producto
 layout app_bar_mn_menu
+layout conf_list_producto
 layout content_mn_menu
 layout fragment_gallery
 layout fragment_home
