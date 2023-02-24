@@ -21,6 +21,7 @@ public class MnProducto extends AppCompatActivity {
         DataProd =  (GridView) findViewById(R.id.FrmProd_grid);
         try {
             dpro = new DProducto(this);
+            dpro.Data=DataProd;
             dpro.getList("");
         } catch (Exception e)
         {getToast("Error Activity:"+e.getMessage());}

@@ -1,6 +1,7 @@
 package com.example.controlador;
 
 import android.content.Context;
+import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.Toast;
 
@@ -37,7 +38,11 @@ public class DProducto implements IDao<Producto>{
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
                 String resp=new String(responseBody);
-                getToast(resp);
+                getJSON(resp);
+                ArrayAdapter adp=new ArrayAdapter(ct, android.R.layout.simple_list_item_1);
+                for (Producto row:array)
+                    adp.add(row.getCod()+"-"+row.getNom());
+                Data.setAdapter(adp);
             }
             @Override
             public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
