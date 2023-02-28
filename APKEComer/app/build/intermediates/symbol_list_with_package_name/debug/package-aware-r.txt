@@ -2865,6 +2865,10 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id FrmCProd_Img
+id FrmCProd_Lblnom
+id FrmCProd_Lblpre
+id FrmCProd_rbar
 id FrmLog_btnacep
 id FrmPre_btnpre
 id FrmProd_grid
@@ -3089,7 +3093,6 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView2
 id immediateStop
 id included
 id indeterminate
@@ -3222,7 +3225,6 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
-id ratingBar
 id ratio
 id rectangles
 id reverseSawtooth
@@ -3332,8 +3334,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
-id textView3
 id text_gallery
 id text_home
 id text_input_end_icon

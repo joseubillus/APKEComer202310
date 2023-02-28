@@ -22,24 +22,25 @@ public final class ConfListProductoBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ImageView imageView2;
+  public final ImageView FrmCProdImg;
 
   @NonNull
-  public final RatingBar ratingBar;
+  public final TextView FrmCProdLblnom;
 
   @NonNull
-  public final TextView textView2;
+  public final TextView FrmCProdLblpre;
 
   @NonNull
-  public final TextView textView3;
+  public final RatingBar FrmCProdRbar;
 
-  private ConfListProductoBinding(@NonNull RelativeLayout rootView, @NonNull ImageView imageView2,
-      @NonNull RatingBar ratingBar, @NonNull TextView textView2, @NonNull TextView textView3) {
+  private ConfListProductoBinding(@NonNull RelativeLayout rootView, @NonNull ImageView FrmCProdImg,
+      @NonNull TextView FrmCProdLblnom, @NonNull TextView FrmCProdLblpre,
+      @NonNull RatingBar FrmCProdRbar) {
     this.rootView = rootView;
-    this.imageView2 = imageView2;
-    this.ratingBar = ratingBar;
-    this.textView2 = textView2;
-    this.textView3 = textView3;
+    this.FrmCProdImg = FrmCProdImg;
+    this.FrmCProdLblnom = FrmCProdLblnom;
+    this.FrmCProdLblpre = FrmCProdLblpre;
+    this.FrmCProdRbar = FrmCProdRbar;
   }
 
   @Override
@@ -69,32 +70,32 @@ public final class ConfListProductoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView2;
-      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView2 == null) {
+      id = R.id.FrmCProd_Img;
+      ImageView FrmCProdImg = ViewBindings.findChildViewById(rootView, id);
+      if (FrmCProdImg == null) {
         break missingId;
       }
 
-      id = R.id.ratingBar;
-      RatingBar ratingBar = ViewBindings.findChildViewById(rootView, id);
-      if (ratingBar == null) {
+      id = R.id.FrmCProd_Lblnom;
+      TextView FrmCProdLblnom = ViewBindings.findChildViewById(rootView, id);
+      if (FrmCProdLblnom == null) {
         break missingId;
       }
 
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
+      id = R.id.FrmCProd_Lblpre;
+      TextView FrmCProdLblpre = ViewBindings.findChildViewById(rootView, id);
+      if (FrmCProdLblpre == null) {
         break missingId;
       }
 
-      id = R.id.textView3;
-      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
-      if (textView3 == null) {
+      id = R.id.FrmCProd_rbar;
+      RatingBar FrmCProdRbar = ViewBindings.findChildViewById(rootView, id);
+      if (FrmCProdRbar == null) {
         break missingId;
       }
 
-      return new ConfListProductoBinding((RelativeLayout) rootView, imageView2, ratingBar,
-          textView2, textView3);
+      return new ConfListProductoBinding((RelativeLayout) rootView, FrmCProdImg, FrmCProdLblnom,
+          FrmCProdLblpre, FrmCProdRbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

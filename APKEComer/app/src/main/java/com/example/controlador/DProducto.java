@@ -6,6 +6,7 @@ import android.widget.GridView;
 import android.widget.Toast;
 
 import com.example.modelo.Producto;
+import com.example.util.ADPProd;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
@@ -20,7 +21,7 @@ import cz.msebera.android.httpclient.Header;
 
 public class DProducto implements IDao<Producto>{
     private AsyncHttpClient asyn=new AsyncHttpClient();
-    private String url="http://172.56.0.160/PHPEComer/Servicio/SProducto.php";
+    private String url="http://192.168.0.13:8070/PHPEComer/Servicio/SProducto.php";
     private List<Producto> array=new ArrayList<>();
     public GridView Data;
     private Context ct;
@@ -39,10 +40,7 @@ public class DProducto implements IDao<Producto>{
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
                 String resp=new String(responseBody);
                 getJSON(resp);
-                ArrayAdapter adp=new ArrayAdapter(ct, android.R.layout.simple_list_item_1);
-                for (Producto row:array)
-                    adp.add(row.getCod()+"-"+row.getNom());
-                Data.setAdapter(adp);
+                Data.setAdapter(new ADPProd(ct,array));
             }
             @Override
             public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
@@ -53,6 +51,7 @@ public class DProducto implements IDao<Producto>{
 
     private void getJSON(String resp){
         try {
+            array.clear();
             JSONArray json=new JSONArray(resp);
             for (int i = 0; i < json.length(); i++) {
                 int cod=new Integer(json.getJSONObject(i).getString("cod"));
