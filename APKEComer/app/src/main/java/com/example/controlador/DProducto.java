@@ -21,7 +21,7 @@ import cz.msebera.android.httpclient.Header;
 
 public class DProducto implements IDao<Producto>{
     private AsyncHttpClient asyn=new AsyncHttpClient();
-    private String url="http://192.168.0.13:8070/PHPEComer/Servicio/SProducto.php";
+    private String url=Conexion.getUrl("SProducto.php");
     private List<Producto> array=new ArrayList<>();
     public GridView Data;
     private Context ct;

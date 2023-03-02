@@ -9,7 +9,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.apkecomer.R;
+import com.example.controlador.Conexion;
 import com.example.modelo.Producto;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,7 +62,7 @@ public class ADPProd extends BaseAdapter {
         Producto pro=getItem(i);
         Lblnom.setText(""+pro.getNom());
         Lblpre.setText("S/."+pro.getPre());
-
+        Picasso.get().load(Conexion.getUrlImg(pro.getImg())).into(Img);
         return root;
     }
 }
