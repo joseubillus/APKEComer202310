@@ -45,8 +45,16 @@
 
             <RatingBar
                 android:id="@+id/FrmCProd_rbar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.DeviceDefault.Light.RatingBar.Indicator"
+                android:numStars="5"
+                android:rating="5"
+                android:scaleY="0.8"
+                android:scaleX="0.8"
+                android:theme="@style/RatingBar.Yellow"
+                android:layout_gravity="center"
+                />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

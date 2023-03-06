@@ -1,46 +1,50 @@
 [
     {
-        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/app_bar_mn_menu.xml",
-        "source": "com.example.apkecomer.app-main-45:/layout/app_bar_mn_menu.xml"
+        "merged": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\activity_mn_producto.xml",
+        "source": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\activity_mn_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\content_mn_menu.xml",
+        "source": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\content_mn_menu.xml"
     },
     {
         "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/conf_list_producto.xml",
         "source": "com.example.apkecomer.app-main-45:/layout/conf_list_producto.xml"
     },
     {
-        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/activity_mn_login.xml",
-        "source": "com.example.apkecomer.app-main-45:/layout/activity_mn_login.xml"
+        "merged": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\fragment_slideshow.xml"
     },
     {
-        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/content_mn_menu.xml",
-        "source": "com.example.apkecomer.app-main-45:/layout/content_mn_menu.xml"
+        "merged": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/nav_header_mn_menu.xml",
-        "source": "com.example.apkecomer.app-main-45:/layout/nav_header_mn_menu.xml"
+        "merged": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\app_bar_mn_menu.xml",
+        "source": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\app_bar_mn_menu.xml"
     },
     {
-        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/fragment_slideshow.xml",
-        "source": "com.example.apkecomer.app-main-45:/layout/fragment_slideshow.xml"
+        "merged": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/fragment_gallery.xml",
-        "source": "com.example.apkecomer.app-main-45:/layout/fragment_gallery.xml"
+        "merged": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\conf_list_producto.xml",
+        "source": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\conf_list_producto.xml"
     },
     {
-        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/fragment_home.xml",
-        "source": "com.example.apkecomer.app-main-45:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\nav_header_mn_menu.xml",
+        "source": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\nav_header_mn_menu.xml"
     },
     {
-        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/activity_mn_producto.xml",
-        "source": "com.example.apkecomer.app-main-45:/layout/activity_mn_producto.xml"
+        "merged": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\activity_mn_login.xml",
+        "source": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\activity_mn_login.xml"
     },
     {
-        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/activity_main.xml",
-        "source": "com.example.apkecomer.app-main-45:/layout/activity_main.xml"
+        "merged": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\fragment_gallery.xml"
     },
     {
-        "merged": "com.example.apkecomer.app-mergeDebugResources-42:/layout/activity_mn_menu.xml",
-        "source": "com.example.apkecomer.app-main-45:/layout/activity_mn_menu.xml"
+        "merged": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-mergeDebugResources-42:\\layout\\activity_mn_menu.xml",
+        "source": "C:\\Users\\asus\\.gradle\\daemon\\7.5\\com.example.apkecomer.app-main-45:\\layout\\activity_mn_menu.xml"
     }
 ]

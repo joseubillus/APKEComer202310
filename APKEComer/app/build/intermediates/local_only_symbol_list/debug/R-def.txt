@@ -73,6 +73,7 @@ string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
 string title_activity_mn_menu
+style RatingBar.Yellow
 style Theme.APKEComer
 style Theme.APKEComer.AppBarOverlay
 style Theme.APKEComer.NoActionBar

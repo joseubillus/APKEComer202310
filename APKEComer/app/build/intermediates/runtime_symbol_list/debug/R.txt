@@ -4071,6 +4071,7 @@ int style Platform_V21_AppCompat_Light 0x7f12013a
 int style Platform_V25_AppCompat 0x7f12013b
 int style Platform_V25_AppCompat_Light 0x7f12013c
 int style Platform_Widget_AppCompat_Spinner 0x7f12013d
+int style RatingBar_Yellow 0x7f120449
 int style RtlOverlay_DialogWindowTitle_AppCompat 0x7f12013e
 int style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem 0x7f12013f
 int style RtlOverlay_Widget_AppCompat_DialogTitle_Icon 0x7f120140

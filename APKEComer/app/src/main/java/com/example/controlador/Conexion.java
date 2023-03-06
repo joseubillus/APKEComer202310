@@ -1,7 +1,7 @@
 package com.example.controlador;
 
 public class Conexion {
-    private static String ip="172.56.0.160";
+    private static String ip="192.168.0.14:8070";
     private static String domin="PHPEComer";
     private static String Serv="Servicio";
 

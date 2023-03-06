@@ -19,6 +19,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="RatingBar.Yellow" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorControlActivated">#FFC107</item>
+        <item name="colorControlNormal">#A5A5A5</item>
+    </style>
+
     <style name="Theme.APKEComer.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.APKEComer.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
