@@ -6,18 +6,18 @@
                 {
                     "source": "C:\\Users\\asus\\AndroidStudioProjects\\APKEComer202310\\APKEComer\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "41",
-                        "endOffsets": "54"
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,58",
+                        "endColumns": "41,42",
+                        "endOffsets": "53,96"
                     },
                     "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "41",
-                        "endOffsets": "92"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,97",
+                        "endColumns": "41,42",
+                        "endOffsets": "92,135"
                     }
                 }
             ]

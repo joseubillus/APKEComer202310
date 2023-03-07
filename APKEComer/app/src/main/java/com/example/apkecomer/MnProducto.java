@@ -2,7 +2,10 @@ package com.example.apkecomer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.SearchView;
@@ -30,6 +33,17 @@ public class MnProducto extends AppCompatActivity {
         {getToast("Error Activity:"+e.getMessage());}
 
         Schbus.setOnQueryTextListener(getBuscar());
+        DataProd.setOnItemClickListener(getItemClick());
+    }
+
+    private AdapterView.OnItemClickListener getItemClick(){
+        return new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                getToast("Fila:"+i);
+                startActivity(new Intent(MnProducto.this,MnDetaProducto.class));
+            }
+        };
     }
 
     private SearchView.OnQueryTextListener getBuscar(){

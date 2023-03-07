@@ -29,6 +29,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.APKEComer" >
         <activity
+            android:name="com.example.apkecomer.MnDetaProducto"
+            android:exported="false"
+            android:label="@string/title_activity_mn_deta_producto"
+            android:theme="@style/Theme.APKEComer.NoActionBar" />
+
+        <!-- android:parentActivityName=".MnProducto" -->
+
+        <activity
             android:name="com.example.apkecomer.MnProducto"
             android:exported="false" />
         <activity
