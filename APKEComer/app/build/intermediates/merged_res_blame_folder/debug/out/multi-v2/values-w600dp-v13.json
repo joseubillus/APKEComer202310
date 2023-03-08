@@ -4,13 +4,13 @@
             "outputFile": "com.example.apkecomer.app-mergeDebugResources-41:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\asus\\AndroidStudioProjects\\APKEComer202310\\APKEComer\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "C:\\Users\\jose\\Documents\\GitHub\\APKEComer202310\\APKEComer\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1,2",
                         "startColumns": "4,4",
-                        "startOffsets": "16,58",
+                        "startOffsets": "17,60",
                         "endColumns": "41,42",
-                        "endOffsets": "53,96"
+                        "endOffsets": "54,98"
                     },
                     "to": {
                         "startLines": "2,3",

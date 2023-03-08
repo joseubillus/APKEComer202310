@@ -6,141 +6,141 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml
+8-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml
+9-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->[com.loopj.android:android-async-http:1.4.11] C:\Users\asus\.gradle\caches\transforms-3\08d610c687f38a28fe4a56ef6fdc9016\transformed\android-async-http-1.4.11\AndroidManifest.xml:9:5-67
-11-->[com.loopj.android:android-async-http:1.4.11] C:\Users\asus\.gradle\caches\transforms-3\08d610c687f38a28fe4a56ef6fdc9016\transformed\android-async-http-1.4.11\AndroidManifest.xml:9:22-64
+11-->[com.loopj.android:android-async-http:1.4.11] C:\Users\jose\.gradle\caches\transforms-3\08d610c687f38a28fe4a56ef6fdc9016\transformed\android-async-http-1.4.11\AndroidManifest.xml:9:5-67
+11-->[com.loopj.android:android-async-http:1.4.11] C:\Users\jose\.gradle\caches\transforms-3\08d610c687f38a28fe4a56ef6fdc9016\transformed\android-async-http-1.4.11\AndroidManifest.xml:9:22-64
 12
 13    <permission
-13-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+13-->[androidx.core:core:1.9.0] C:\Users\jose\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 14        android:name="com.example.apkecomer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+14-->[androidx.core:core:1.9.0] C:\Users\jose\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+15-->[androidx.core:core:1.9.0] C:\Users\jose\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 16
 17    <uses-permission android:name="com.example.apkecomer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+17-->[androidx.core:core:1.9.0] C:\Users\jose\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\jose\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:5:5-43:19
+19-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:5:5-43:19
 20        android:allowBackup="true"
-20-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:6:9-35
+20-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:6:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.9.0] C:\Users\asus\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21-->[androidx.core:core:1.9.0] C:\Users\jose\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:7:9-65
+22-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:7:9-65
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:fullBackupContent="@xml/backup_rules"
-25-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:8:9-54
+25-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:8:9-54
 26        android:icon="@mipmap/ic_launcher"
-26-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:9:9-43
+26-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:9:9-43
 27        android:label="@string/app_name"
-27-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:10:9-41
+27-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:10:9-41
 28        android:supportsRtl="true"
-28-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:11:9-35
+28-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:11:9-35
 29        android:testOnly="true"
 30        android:theme="@style/Theme.APKEComer" >
-30-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:12:9-47
+30-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:12:9-47
 31        <activity
-31-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:14:9-19:15
+31-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:14:9-19:15
 32            android:name="com.example.apkecomer.MnDetaProducto"
-32-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:15:13-43
+32-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:15:13-43
 33            android:exported="false"
-33-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:16:13-37
+33-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:16:13-37
 34            android:label="@string/title_activity_mn_deta_producto"
-34-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:17:13-68
+34-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:17:13-68
 35            android:theme="@style/Theme.APKEComer.NoActionBar" />
-35-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:18:13-63
+35-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:18:13-63
 36
 37        <!-- android:parentActivityName=".MnProducto" -->
 38
 39        <activity
-39-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:23:9-25:39
+39-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:23:9-25:39
 40            android:name="com.example.apkecomer.MnProducto"
-40-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:24:13-39
+40-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:24:13-39
 41            android:exported="false" />
-41-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:25:13-37
+41-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:25:13-37
 42        <activity
-42-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:26:9-30:66
+42-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:26:9-30:66
 43            android:name="com.example.apkecomer.MnMenu"
-43-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:27:13-35
+43-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:27:13-35
 44            android:exported="false"
-44-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:28:13-37
+44-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:28:13-37
 45            android:label="@string/title_activity_mn_menu"
-45-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:29:13-59
+45-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:29:13-59
 46            android:theme="@style/Theme.APKEComer.NoActionBar" />
-46-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:30:13-63
+46-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:30:13-63
 47        <activity
-47-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:31:9-33:40
+47-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:31:9-33:40
 48            android:name="com.example.apkecomer.MnLogin"
-48-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:32:13-36
+48-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:32:13-36
 49            android:exported="false" />
-49-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:33:13-37
+49-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:33:13-37
 50        <activity
-50-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:34:9-42:20
+50-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:34:9-42:20
 51            android:name="com.example.apkecomer.MainActivity"
-51-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:35:13-41
+51-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:35:13-41
 52            android:exported="true" >
-52-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:36:13-36
+52-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:36:13-36
 53            <intent-filter>
-53-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:37:13-41:29
+53-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:37:13-41:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:38:17-69
-54-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:38:25-66
+54-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:38:17-69
+54-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:38:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:40:17-77
-56-->C:\Users\asus\AndroidStudioProjects\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:40:27-74
+56-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:40:17-77
+56-->C:\Users\jose\Documents\GitHub\APKEComer202310\APKEComer\app\src\main\AndroidManifest.xml:40:27-74
 57            </intent-filter>
 58        </activity>
 59
 60        <provider
-60-->[com.squareup.picasso:picasso:2.8] C:\Users\asus\.gradle\caches\transforms-3\29501eb02b7a032fc469e8d3fe7758f1\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+60-->[com.squareup.picasso:picasso:2.8] C:\Users\jose\.gradle\caches\transforms-3\29501eb02b7a032fc469e8d3fe7758f1\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
 61            android:name="com.squareup.picasso.PicassoProvider"
-61-->[com.squareup.picasso:picasso:2.8] C:\Users\asus\.gradle\caches\transforms-3\29501eb02b7a032fc469e8d3fe7758f1\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+61-->[com.squareup.picasso:picasso:2.8] C:\Users\jose\.gradle\caches\transforms-3\29501eb02b7a032fc469e8d3fe7758f1\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
 62            android:authorities="com.example.apkecomer.com.squareup.picasso"
-62-->[com.squareup.picasso:picasso:2.8] C:\Users\asus\.gradle\caches\transforms-3\29501eb02b7a032fc469e8d3fe7758f1\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+62-->[com.squareup.picasso:picasso:2.8] C:\Users\jose\.gradle\caches\transforms-3\29501eb02b7a032fc469e8d3fe7758f1\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
 63            android:exported="false" />
-63-->[com.squareup.picasso:picasso:2.8] C:\Users\asus\.gradle\caches\transforms-3\29501eb02b7a032fc469e8d3fe7758f1\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+63-->[com.squareup.picasso:picasso:2.8] C:\Users\jose\.gradle\caches\transforms-3\29501eb02b7a032fc469e8d3fe7758f1\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
 64        <provider
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jose\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 65            android:name="androidx.startup.InitializationProvider"
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jose\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 66            android:authorities="com.example.apkecomer.androidx-startup"
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jose\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 67            android:exported="false" >
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jose\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 68            <meta-data
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jose\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jose\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 70                android:value="androidx.startup" />
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jose\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 71            <meta-data
-71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\asus\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jose\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\asus\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jose\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 73                android:value="androidx.startup" />
-73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\asus\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jose\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 74        </provider>
 75
 76        <uses-library
-76-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+76-->[androidx.window:window:1.0.0] C:\Users\jose\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 77            android:name="androidx.window.extensions"
-77-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+77-->[androidx.window:window:1.0.0] C:\Users\jose\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 78            android:required="false" />
-78-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+78-->[androidx.window:window:1.0.0] C:\Users\jose\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 79        <uses-library
-79-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+79-->[androidx.window:window:1.0.0] C:\Users\jose\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 80            android:name="androidx.window.sidecar"
-80-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+80-->[androidx.window:window:1.0.0] C:\Users\jose\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 81            android:required="false" />
-81-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+81-->[androidx.window:window:1.0.0] C:\Users\jose\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 82    </application>
 83
 84</manifest>
