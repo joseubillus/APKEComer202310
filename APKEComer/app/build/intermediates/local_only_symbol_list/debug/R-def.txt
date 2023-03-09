@@ -26,6 +26,9 @@ id FrmCProd_Img
 id FrmCProd_Lblnom
 id FrmCProd_Lblpre
 id FrmCProd_rbar
+id FrmConfDePro_Lblnom
+id FrmConfDePro_Lblpre
+id FrmConfDePro_Rbar
 id FrmLog_btnacep
 id FrmPre_btnpre
 id FrmProd_grid
@@ -37,7 +40,6 @@ id drawer_layout
 id editTextTextPassword
 id editTextTextPersonName
 id fab
-id frmCProd_rbar
 id imageView
 id imageView2
 id mobile_navigation

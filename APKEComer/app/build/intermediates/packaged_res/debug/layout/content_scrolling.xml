@@ -21,6 +21,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/FrmConfDePro_Lblnom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Nombre:"
@@ -29,7 +30,7 @@
                 android:textStyle="bold" />
 
             <RatingBar
-                android:id="@+id/frmCProd_rbar"
+                android:id="@+id/FrmConfDePro_Rbar"
                 style="@android:style/Widget.DeviceDefault.Light.RatingBar.Indicator"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
@@ -39,6 +40,15 @@
                 android:scaleX="0.8"
                 android:scaleY="0.8"
                 android:theme="@style/RatingBar.Yellow" />
+
+            <TextView
+                android:id="@+id/FrmConfDePro_Lblpre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="S/. 0.0"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"

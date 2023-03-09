@@ -2871,6 +2871,9 @@ id FrmCProd_Img
 id FrmCProd_Lblnom
 id FrmCProd_Lblpre
 id FrmCProd_rbar
+id FrmConfDePro_Lblnom
+id FrmConfDePro_Lblpre
+id FrmConfDePro_Rbar
 id FrmLog_btnacep
 id FrmPre_btnpre
 id FrmProd_grid
@@ -3073,7 +3076,6 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
-id frmCProd_rbar
 id frost
 id fullscreen_header
 id ghost_view

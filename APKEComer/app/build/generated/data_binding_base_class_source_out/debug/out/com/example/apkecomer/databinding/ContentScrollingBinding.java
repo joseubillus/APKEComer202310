@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RatingBar;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -31,11 +32,48 @@ public final class ContentScrollingBinding implements ViewBinding {
    * </ul>
    */
   @Nullable
-  public final RatingBar frmCProdRbar;
+  public final TextView FrmConfDeProLblnom;
 
-  private ContentScrollingBinding(@NonNull View rootView, @Nullable RatingBar frmCProdRbar) {
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-w1240dp/</li>
+   *   <li>layout-w936dp/</li>
+   * </ul>
+   */
+  @Nullable
+  public final TextView FrmConfDeProLblpre;
+
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-w1240dp/</li>
+   *   <li>layout-w936dp/</li>
+   * </ul>
+   */
+  @Nullable
+  public final RatingBar FrmConfDeProRbar;
+
+  private ContentScrollingBinding(@NonNull View rootView, @Nullable TextView FrmConfDeProLblnom,
+      @Nullable TextView FrmConfDeProLblpre, @Nullable RatingBar FrmConfDeProRbar) {
     this.rootView = rootView;
-    this.frmCProdRbar = frmCProdRbar;
+    this.FrmConfDeProLblnom = FrmConfDeProLblnom;
+    this.FrmConfDeProLblpre = FrmConfDeProLblpre;
+    this.FrmConfDeProRbar = FrmConfDeProRbar;
   }
 
   @Override
@@ -61,8 +99,13 @@ public final class ContentScrollingBinding implements ViewBinding {
 
   @NonNull
   public static ContentScrollingBinding bind(@NonNull View rootView) {
-    RatingBar frmCProdRbar = ViewBindings.findChildViewById(rootView, R.id.frmCProd_rbar);
+    TextView FrmConfDeProLblnom = ViewBindings.findChildViewById(rootView, R.id.FrmConfDePro_Lblnom);
 
-    return new ContentScrollingBinding(rootView, frmCProdRbar);
+    TextView FrmConfDeProLblpre = ViewBindings.findChildViewById(rootView, R.id.FrmConfDePro_Lblpre);
+
+    RatingBar FrmConfDeProRbar = ViewBindings.findChildViewById(rootView, R.id.FrmConfDePro_Rbar);
+
+    return new ContentScrollingBinding(rootView, FrmConfDeProLblnom, FrmConfDeProLblpre,
+        FrmConfDeProRbar);
   }
 }

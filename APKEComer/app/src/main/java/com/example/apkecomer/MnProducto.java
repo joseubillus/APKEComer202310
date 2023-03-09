@@ -12,6 +12,7 @@ import android.widget.SearchView;
 import android.widget.Toast;
 
 import com.example.controlador.DProducto;
+import com.example.modelo.Producto;
 
 public class MnProducto extends AppCompatActivity {
     private GridView DataProd;
@@ -40,8 +41,14 @@ public class MnProducto extends AppCompatActivity {
         return new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                getToast("Fila:"+i);
-                startActivity(new Intent(MnProducto.this,MnDetaProducto.class));
+                Intent intent=new Intent(MnProducto.this,MnDetaProducto.class);
+
+                Producto pro=dpro.getItem(i);
+                intent.putExtra("Cod",""+pro.getCod());
+                intent.putExtra("Nom",pro.getNom());
+                intent.putExtra("Pre","S/."+pro.getPre());
+
+                startActivity(intent);
             }
         };
     }
