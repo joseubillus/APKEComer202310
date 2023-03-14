@@ -41,6 +41,7 @@
                 app:popupTheme="@style/Theme.APKEComer.PopupOverlay" />
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_scrolling" />

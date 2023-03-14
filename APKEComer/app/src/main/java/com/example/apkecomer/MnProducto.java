@@ -49,6 +49,7 @@ public class MnProducto extends AppCompatActivity {
                 intent.putExtra("Pre","S/."+pro.getPre());
                 intent.putExtra("Ratg",""+pro.getRank());
                 intent.putExtra("Img",""+pro.getImg());
+                intent.putExtra("Car",""+pro.getCarac());
 
                 startActivity(intent);
             }

@@ -59,6 +59,7 @@ public class MnDetaProducto extends AppCompatActivity {
         TextView lblpre=(TextView) root.findViewById(R.id.FrmConfDePro_Lblpre);
         RatingBar ratng=(RatingBar) root.findViewById(R.id.FrmConfDePro_Rbar);
         ImageView Imagen=(ImageView) root.findViewById(R.id.FrmDeProd_Img);
+        TextView LblDesc=(TextView) root.findViewById(R.id.FrmConfDePro_LblDesc);
 
         if(this.getIntent().getExtras().getString("Cod")!=null){
             Bundle bundle=this.getIntent().getExtras();
@@ -67,10 +68,12 @@ public class MnDetaProducto extends AppCompatActivity {
             String pre=bundle.getString("Pre");
             String ratbar=bundle.getString("Ratg");
             String img=bundle.getString("Img");
+            String desc=bundle.getString("Car");
 
             lblnom.setText(""+nom);
             lblpre.setText(""+pre);
             ratng.setRating(new Float(ratbar));
+            LblDesc.setText(""+desc);
             Picasso.get().load(Conexion.getUrlImg(img)).into(Imagen);
         }
     }

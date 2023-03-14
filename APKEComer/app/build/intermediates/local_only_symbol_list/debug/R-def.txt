@@ -26,6 +26,7 @@ id FrmCProd_Img
 id FrmCProd_Lblnom
 id FrmCProd_Lblpre
 id FrmCProd_rbar
+id FrmConfDePro_LblDesc
 id FrmConfDePro_Lblnom
 id FrmConfDePro_Lblpre
 id FrmConfDePro_Rbar

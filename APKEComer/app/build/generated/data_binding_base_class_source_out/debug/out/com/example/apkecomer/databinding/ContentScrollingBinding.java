@@ -32,6 +32,23 @@ public final class ContentScrollingBinding implements ViewBinding {
    * </ul>
    */
   @Nullable
+  public final TextView FrmConfDeProLblDesc;
+
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-w1240dp/</li>
+   *   <li>layout-w936dp/</li>
+   * </ul>
+   */
+  @Nullable
   public final TextView FrmConfDeProLblnom;
 
   /**
@@ -85,10 +102,11 @@ public final class ContentScrollingBinding implements ViewBinding {
   @Nullable
   public final TextView textView2;
 
-  private ContentScrollingBinding(@NonNull View rootView, @Nullable TextView FrmConfDeProLblnom,
-      @Nullable TextView FrmConfDeProLblpre, @Nullable RatingBar FrmConfDeProRbar,
-      @Nullable TextView textView2) {
+  private ContentScrollingBinding(@NonNull View rootView, @Nullable TextView FrmConfDeProLblDesc,
+      @Nullable TextView FrmConfDeProLblnom, @Nullable TextView FrmConfDeProLblpre,
+      @Nullable RatingBar FrmConfDeProRbar, @Nullable TextView textView2) {
     this.rootView = rootView;
+    this.FrmConfDeProLblDesc = FrmConfDeProLblDesc;
     this.FrmConfDeProLblnom = FrmConfDeProLblnom;
     this.FrmConfDeProLblpre = FrmConfDeProLblpre;
     this.FrmConfDeProRbar = FrmConfDeProRbar;
@@ -118,6 +136,8 @@ public final class ContentScrollingBinding implements ViewBinding {
 
   @NonNull
   public static ContentScrollingBinding bind(@NonNull View rootView) {
+    TextView FrmConfDeProLblDesc = ViewBindings.findChildViewById(rootView, R.id.FrmConfDePro_LblDesc);
+
     TextView FrmConfDeProLblnom = ViewBindings.findChildViewById(rootView, R.id.FrmConfDePro_Lblnom);
 
     TextView FrmConfDeProLblpre = ViewBindings.findChildViewById(rootView, R.id.FrmConfDePro_Lblpre);
@@ -126,7 +146,7 @@ public final class ContentScrollingBinding implements ViewBinding {
 
     TextView textView2 = ViewBindings.findChildViewById(rootView, R.id.textView2);
 
-    return new ContentScrollingBinding(rootView, FrmConfDeProLblnom, FrmConfDeProLblpre,
-        FrmConfDeProRbar, textView2);
+    return new ContentScrollingBinding(rootView, FrmConfDeProLblDesc, FrmConfDeProLblnom,
+        FrmConfDeProLblpre, FrmConfDeProRbar, textView2);
   }
 }
