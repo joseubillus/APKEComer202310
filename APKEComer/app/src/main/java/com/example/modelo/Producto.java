@@ -7,13 +7,13 @@ public class Producto {
     private int stock;
     private String mar;
     private String cat;
-    private String rank;
+    private double rank;
     private String carac;
     private String img;
 
     public Producto() {}
 
-    public Producto(int cod, String nom, double pre, int stock, String mar, String cat, String rank, String carac, String img) {
+    public Producto(int cod, String nom, double pre, int stock, String mar, String cat, double rank, String carac, String img) {
         this.cod = cod;
         this.nom = nom;
         this.pre = pre;
@@ -73,11 +73,11 @@ public class Producto {
         this.cat = cat;
     }
 
-    public String getRank() {
+    public double getRank() {
         return rank;
     }
 
-    public void setRank(String rank) {
+    public void setRank(double rank) {
         this.rank = rank;
     }
 

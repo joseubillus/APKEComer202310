@@ -24,13 +24,13 @@ public final class ActivityMnDetaProductoBinding implements ViewBinding {
   private final CoordinatorLayout rootView;
 
   @NonNull
+  public final ImageView FrmDeProdImg;
+
+  @NonNull
   public final AppBarLayout appBar;
 
   @NonNull
   public final FloatingActionButton fab;
-
-  @NonNull
-  public final ImageView imageView2;
 
   @NonNull
   public final Toolbar toolbar;
@@ -39,13 +39,13 @@ public final class ActivityMnDetaProductoBinding implements ViewBinding {
   public final CollapsingToolbarLayout toolbarLayout;
 
   private ActivityMnDetaProductoBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull AppBarLayout appBar, @NonNull FloatingActionButton fab,
-      @NonNull ImageView imageView2, @NonNull Toolbar toolbar,
+      @NonNull ImageView FrmDeProdImg, @NonNull AppBarLayout appBar,
+      @NonNull FloatingActionButton fab, @NonNull Toolbar toolbar,
       @NonNull CollapsingToolbarLayout toolbarLayout) {
     this.rootView = rootView;
+    this.FrmDeProdImg = FrmDeProdImg;
     this.appBar = appBar;
     this.fab = fab;
-    this.imageView2 = imageView2;
     this.toolbar = toolbar;
     this.toolbarLayout = toolbarLayout;
   }
@@ -77,6 +77,12 @@ public final class ActivityMnDetaProductoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.FrmDeProd_Img;
+      ImageView FrmDeProdImg = ViewBindings.findChildViewById(rootView, id);
+      if (FrmDeProdImg == null) {
+        break missingId;
+      }
+
       id = R.id.app_bar;
       AppBarLayout appBar = ViewBindings.findChildViewById(rootView, id);
       if (appBar == null) {
@@ -86,12 +92,6 @@ public final class ActivityMnDetaProductoBinding implements ViewBinding {
       id = R.id.fab;
       FloatingActionButton fab = ViewBindings.findChildViewById(rootView, id);
       if (fab == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView2;
-      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView2 == null) {
         break missingId;
       }
 
@@ -107,8 +107,8 @@ public final class ActivityMnDetaProductoBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMnDetaProductoBinding((CoordinatorLayout) rootView, appBar, fab,
-          imageView2, toolbar, toolbarLayout);
+      return new ActivityMnDetaProductoBinding((CoordinatorLayout) rootView, FrmDeProdImg, appBar,
+          fab, toolbar, toolbarLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

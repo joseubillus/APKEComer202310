@@ -2,6 +2,7 @@ package com.example.apkecomer;
 
 import android.os.Bundle;
 
+import com.example.controlador.Conexion;
 import com.example.util.Mensaje;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,9 +12,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.example.apkecomer.databinding.ActivityMnDetaProductoBinding;
+import com.squareup.picasso.Picasso;
 
 public class MnDetaProducto extends AppCompatActivity {
 
@@ -53,15 +57,21 @@ public class MnDetaProducto extends AppCompatActivity {
 
         TextView lblnom=(TextView) root.findViewById(R.id.FrmConfDePro_Lblnom);
         TextView lblpre=(TextView) root.findViewById(R.id.FrmConfDePro_Lblpre);
+        RatingBar ratng=(RatingBar) root.findViewById(R.id.FrmConfDePro_Rbar);
+        ImageView Imagen=(ImageView) root.findViewById(R.id.FrmDeProd_Img);
 
         if(this.getIntent().getExtras().getString("Cod")!=null){
             Bundle bundle=this.getIntent().getExtras();
             String cod=bundle.getString("Cod");
             String nom=bundle.getString("Nom");
             String pre=bundle.getString("Pre");
+            String ratbar=bundle.getString("Ratg");
+            String img=bundle.getString("Img");
 
             lblnom.setText(""+nom);
             lblpre.setText(""+pre);
+            ratng.setRating(new Float(ratbar));
+            Picasso.get().load(Conexion.getUrlImg(img)).into(Imagen);
         }
     }
 }

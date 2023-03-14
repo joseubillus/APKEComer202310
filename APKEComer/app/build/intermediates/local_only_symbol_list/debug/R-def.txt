@@ -29,6 +29,7 @@ id FrmCProd_rbar
 id FrmConfDePro_Lblnom
 id FrmConfDePro_Lblpre
 id FrmConfDePro_Rbar
+id FrmDeProd_Img
 id FrmLog_btnacep
 id FrmPre_btnpre
 id FrmProd_grid
@@ -41,7 +42,6 @@ id editTextTextPassword
 id editTextTextPersonName
 id fab
 id imageView
-id imageView2
 id mobile_navigation
 id nav_gallery
 id nav_home
@@ -49,6 +49,7 @@ id nav_host_fragment_content_mn_menu
 id nav_slideshow
 id nav_view
 id textView
+id textView2
 id text_gallery
 id text_home
 id text_slideshow

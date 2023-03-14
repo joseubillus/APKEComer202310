@@ -70,7 +70,7 @@ public class DProducto implements IDao<Producto>{
                 int stock=new Integer(json.getJSONObject(i).getString("stock"));
                 String mar=json.getJSONObject(i).getString("mar");
                 String cat=json.getJSONObject(i).getString("cat");
-                String rank=json.getJSONObject(i).getString("rank");
+                double rank=new Double(json.getJSONObject(i).getString("rank"));
                 String carac=json.getJSONObject(i).getString("carac");
                 String img=json.getJSONObject(i).getString("img");
 

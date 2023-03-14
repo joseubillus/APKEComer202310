@@ -68,12 +68,31 @@ public final class ContentScrollingBinding implements ViewBinding {
   @Nullable
   public final RatingBar FrmConfDeProRbar;
 
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-w1240dp/</li>
+   *   <li>layout-w936dp/</li>
+   * </ul>
+   */
+  @Nullable
+  public final TextView textView2;
+
   private ContentScrollingBinding(@NonNull View rootView, @Nullable TextView FrmConfDeProLblnom,
-      @Nullable TextView FrmConfDeProLblpre, @Nullable RatingBar FrmConfDeProRbar) {
+      @Nullable TextView FrmConfDeProLblpre, @Nullable RatingBar FrmConfDeProRbar,
+      @Nullable TextView textView2) {
     this.rootView = rootView;
     this.FrmConfDeProLblnom = FrmConfDeProLblnom;
     this.FrmConfDeProLblpre = FrmConfDeProLblpre;
     this.FrmConfDeProRbar = FrmConfDeProRbar;
+    this.textView2 = textView2;
   }
 
   @Override
@@ -105,7 +124,9 @@ public final class ContentScrollingBinding implements ViewBinding {
 
     RatingBar FrmConfDeProRbar = ViewBindings.findChildViewById(rootView, R.id.FrmConfDePro_Rbar);
 
+    TextView textView2 = ViewBindings.findChildViewById(rootView, R.id.textView2);
+
     return new ContentScrollingBinding(rootView, FrmConfDeProLblnom, FrmConfDeProLblpre,
-        FrmConfDeProRbar);
+        FrmConfDeProRbar, textView2);
   }
 }

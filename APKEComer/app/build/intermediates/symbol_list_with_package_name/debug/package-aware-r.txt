@@ -2874,6 +2874,7 @@ id FrmCProd_rbar
 id FrmConfDePro_Lblnom
 id FrmConfDePro_Lblpre
 id FrmConfDePro_Rbar
+id FrmDeProd_Img
 id FrmLog_btnacep
 id FrmPre_btnpre
 id FrmProd_grid
@@ -3099,7 +3100,6 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView2
 id immediateStop
 id included
 id indeterminate
@@ -3341,6 +3341,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id text_gallery
 id text_home
 id text_input_end_icon

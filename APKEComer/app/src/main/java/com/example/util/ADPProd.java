@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.example.apkecomer.R;
@@ -58,10 +59,12 @@ public class ADPProd extends BaseAdapter {
         TextView Lblnom=(TextView) root.findViewById(R.id.FrmCProd_Lblnom);
         TextView Lblpre=(TextView) root.findViewById(R.id.FrmCProd_Lblpre);
         ImageView Img=(ImageView) root.findViewById(R.id.FrmCProd_Img);
+        RatingBar Ratbar=(RatingBar) root.findViewById(R.id.FrmCProd_rbar);
 
         Producto pro=getItem(i);
         Lblnom.setText(""+pro.getNom());
         Lblpre.setText("S/."+pro.getPre());
+        Ratbar.setRating(new Float(pro.getRank()));
         Picasso.get().load(Conexion.getUrlImg(pro.getImg())).into(Img);
         return root;
     }
